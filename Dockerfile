@@ -4,4 +4,4 @@ RUN apt-get update
 RUN apt-get install -y ruby
 RUN apt-get install -y ruby-dev
 RUN gem install sinatra
-RUN apt-get install nano
+RUN apt-get install -y apache2
